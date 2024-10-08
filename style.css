@@ -1,0 +1,71 @@
+@font-face {
+    font-family: typeWriterfont;
+    src: url(assets/font.otf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: white;
+}
+
+h1{
+    font-family: typeWriterfont;
+    position: relative;
+    overflow: hidden;
+    /* padding-left: 15vw; */
+    color: black;
+}
+
+h1 .prompt{
+    display: inline-block;
+}
+
+.andyouwill, .geta, .huge, .watermelon, .emoji{
+    height: 100vh; 
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.firstpage{
+    height: 100vh; 
+    width: 100vw;
+    position: relative;
+    display: flex;
+    font-size: 3vw;
+}
+
+.andyouwill{
+    left: 50%;
+    font-size: 3vw;
+}
+
+.geta{
+    left: 60%;
+    font-size: 3vw;
+
+}
+
+.huge{
+    left: 30%;
+    font-size: 13vw;
+}
+
+.watermelon{
+    left: 20%;
+    font-size: 3vw;
+}
+
+.emoji{
+    left: 20%;
+    font-size: 25vw;
+}
