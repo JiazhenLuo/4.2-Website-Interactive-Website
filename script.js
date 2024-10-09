@@ -1,5 +1,6 @@
 const words = {
     ".firstpage": "lets scroll", 
+    ".keepscrolling": "keep scrolling", 
     ".andyouwill": "and you will", 
     ".geta": "get a", 
     ".huge": "huge", 
@@ -28,7 +29,7 @@ Object.keys(words).forEach(selector => {
     if (section) { 
         ScrollTrigger.create({
             trigger: section,
-            start: "top 20%", 
+            start: "top 50%", 
             // end: "bottom 25%",           
             onEnter: () => {
                 let targetElement = section.querySelector('.text'); 
